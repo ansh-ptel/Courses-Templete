@@ -1,0 +1,105 @@
+body{
+    background-image: linear-gradient(to right,#0088cc,#006699);
+}
+.btn-primary{
+    color: green;
+    background-color: white;
+    border-color: white;
+    float: right;
+    margin-right: 40px;
+    margin-top: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.form1{
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-image: linear-gradient(to right,orange,#ffc966);   
+    padding-left: 40px;
+    border-radius: 10%;
+}
+
+.lay1{
+    width:125px;
+    height:125px;
+    background-color: white;
+    transform: translateY(-100px)translateX(0px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10%;
+}
+.h14{
+    color: gray;
+    font-weight: bolder;
+}
+.card1{
+    height:150px;
+    border-radius: 10%; 
+    background-image: linear-gradient(to right, orange, #ffc966);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card2{
+    width: 80px; 
+    height: 80px; 
+    border-radius: 10%; transform: translateX(-15%)translateY(-198%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card3{
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    transform: translateX(50%)translateY(-248%);
+    float:right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card4{
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    background-image: linear-gradient(to right,#66ffc2,#1aff66);
+    float:right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+hr {
+    height: 0px;
+    border: none;
+    border-top: 1px solid black;
+}
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+@media(min-width: 992px){
+
+    .lay1{
+        transform: translateY(-100px)translateX(-50px);
+    }
+    .hr1{
+        transform:rotate(90deg);
+        width: 90px;
+        height: 80px;
+    }
+    .hr2{
+        transform:rotate(90deg)translateX(112%);
+        width: 90px;
+        height: 80px;
+    }
+    .or1{
+        transform: translateX(-20%);
+    }
+}
